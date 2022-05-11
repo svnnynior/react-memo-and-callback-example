@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-color: #1f1d36;
+  color: #e9a6a6;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.todo-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 10px;
+  padding: 20px 20px;
+  height: 30px;
+  margin: 10px;
+  background-color: #3f3351;
+}
+
+.todo-label {
+  font-size: 20px;
+}
+
+.todo-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.render-count {
+  background-color: #ecdbba;
+  color: #864879;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+  width: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
